@@ -127,3 +127,24 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Cookie files
+.urs_cookies
+
+# VS Code
+.vscode
+
+# Products
+crop_lookup_CONUS_*/
+crop_lookup_global_*/
+global_soil_avg_*/
+global_soil_major_*/
+NLDAS_weather/
+weather/
+
+# Old version data
+data/
+!data/cb_2018_us_state_500k.*
+
+# Other binaries
+bin/7zzs
